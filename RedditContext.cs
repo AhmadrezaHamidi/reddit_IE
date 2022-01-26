@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Model;
+using Reddit.Model;
 
 namespace Reddit
 {
@@ -12,6 +13,9 @@ namespace Reddit
         public RedditContext() : base(GetOptions(connectionString)) { }
 
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        
+        
         public string DbPath { get; private set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
