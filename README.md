@@ -16,11 +16,24 @@ You may also see any lint errors in the console.
 
 in reddit you can signUp and logIn and then create post and community. see others post and like them.
 login:
-![plot](./logIn.png)
-![plot](./logIn2.png)
+![plot](./screenShots/logIn.png)
+![plot](./screenShots/logIn2.png)
 
 signUp:
-![plot](./register.png)
+![plot](./screenShots/register.png)
+![plot](./screenShots/signUp.png)
 
 adding Post:
-![plot](./createPost.png)
+![plot](./screenShots/createPost.png)
+![plot](./screenShots/createPost2.png)
+
+createCommunity:
+![plot](./screenShots/createSubReddit.png)
+![plot](./screenShots/addCommunity.png)
+
+in Home you can see posts:
+![plot](./screenShots/emptyHome.png)
+
+you can also logOut:
+![plot](./screenShots/logOut.png)
+
